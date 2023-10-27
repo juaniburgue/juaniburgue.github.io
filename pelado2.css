@@ -1,0 +1,264 @@
+
+
+body {
+    background-color: #000; /* Fondo negro */
+    color: #3498db; /* Color de texto en tono azul claro */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333; /* Fondo del encabezado en un tono más oscuro de azul */
+    color: #fff; /* Color del texto en el encabezado */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* Color del enlace en el encabezado */
+    text-decoration: none;
+}
+
+section {
+    
+    padding: 20px;
+}
+
+footer {
+    background-color: #333; /* Fondo del pie de página en un tono más oscuro de azul */
+    color: #fff; /* Color del texto en el pie de página */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilos para el formulario de contacto */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+label,
+input,
+textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+
+
+/* Estilos para el formulario de contacto */
+.contacto-formulario {
+    max-width: 400px;
+    margin: -600px auto 0 1300px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#contacto {
+    font-size: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10%; /* Ajusta este valor según tus necesidades */
+    margin-top: -20px; /* Ajusta este valor para subir "Contactanos" en la página */
+    display: none; /* Para ocultar la sección inicialmente */
+}
+
+#contacto .contenedor-contacto {
+    text-align: center;
+    font-size: 20px; /* Tamaño de fuente para el contenido de la sección "Contactanos" */
+
+}
+
+#contacto .informacion-contacto,
+#contacto .red-social {
+    width: 100%;
+    max-width: 1500px; /* Ajusta este valor según tus necesidades */
+    margin-bottom: 10px;
+}
+
+#contacto .red-social {
+    display: flex;
+    justify-content: center;
+}
+
+#contacto .red-social img {
+    margin-right: 10px;
+}
+
+.grilla-programacion {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.grilla-programacion th, .grilla-programacion td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    color: rgb(142, 192, 123);
+}
+
+.grilla-programacion th {
+    background-color: #000000; /* Color de fondo para las celdas de encabezado */
+}
+
+.grilla-programacion tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color de fondo para las filas pares */
+}
+
+.grilla-programacion tr:hover {
+    background-color: #856e6e; /* Cambia el color de fondo al pasar el mouse sobre una fila */
+}
+
+
+#clima-container {
+    float: right;
+    margin-left: 20px; /* Espacio entre el reproductor y el widget del clima */
+    margin-top: -400px
+    
+
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Mueve los elementos hacia la derecha */
+    margin-top: -80px; /* Sube el contenido un poco */
+    margin-bottom: 10px; /* Ajusta el margen inferior según sea necesario */
+    margin-right: 20px; /* Ajusta el valor según el espacio que desees */
+}
+
+
+
+.footer-text {
+    margin-top: -100px;
+    margin-right: -120px; /* Espacio entre "Aplicaciones" y los logotipos */
+    font-size: 18px; /* Tamaño del texto */
+    color: #fff; /* Color del texto */
+}
+
+.footer-container .separator {
+    width: 10px; /* Ancho del espacio negro entre las imágenes */
+    height: 60px; /* Igualar la altura de las imágenes */
+    
+}
+
+
+.s-button {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 0 1.5em; /* Ajusta el padding para agrandar el recuadro */
+    line-height: 42px;
+    border: solid 1px rgba(255, 255, 255, 0.808);
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: transparent; /* Fondo transparente */
+}
+
+.s-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: green; /* Cambia el color del botón a verde */
+    border-radius: inherit;
+    opacity: 0.5; /* Cambia la opacidad del fondo a la mitad */
+    z-index: -1;
+}
+
+
+.s-button::after {
+    content: '';
+    position: absolute;
+    top: 30%; /* Ajusta la posición vertical de la luz roja */
+    right: 6px; /* Ajusta la posición horizontal de la luz roja */
+    width: 13px; /* Ajusta el ancho de la luz roja */
+    height: 15px; /* Ajusta la altura de la luz roja */
+    border-radius: 50%;
+    background-color: red;
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+
