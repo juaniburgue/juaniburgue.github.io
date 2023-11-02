@@ -1,18 +1,23 @@
 
-
 body {
     background-color: #000; /* Fondo negro */
     color: #ffffff; /* Color de texto en tono azul claro */
     font-family: Arial, sans-serif; /* Fuente del texto */
     margin: 0;
     padding: 0;
+    background-image: url('../assets/ParteCentral.jpeg');
+    background-size: cover; 
+    background-attachment: fixed
 }
 
 header {
-    background-color: #333; /* Fondo del encabezado en un tono más oscuro de azul */
+    /* background-color: #333; Fondo del encabezado en un tono más oscuro de azul */
     color: #fff; /* Color del texto en el encabezado */
     padding: 10px 0;
     text-align: center;
+    /* background-image: url('../assets/ParteSuperior.jpeg');  */
+    background-size: 1000px 170px; 
+    background-attachment: fixed;
 }
 
 nav ul {
@@ -42,6 +47,9 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    background-image: url('../assets/ParteInferior.jpeg'); 
+    background-size: 1000px 170px; 
+    background-attachment: fixed;
 }
 
 /* Estilos para el formulario de contacto */
@@ -129,9 +137,7 @@ button:hover {
 
 #contacto .informacion-contacto,
 #contacto .red-social {
-    width: 100%;
-    max-width: 1500px; /* Ajusta este valor según tus necesidades */
-    margin-bottom: 10px;
+    
 }
 
 #contacto .red-social {
@@ -236,4 +242,14 @@ button:hover {
     }
 }
 
+
+
+.inicio__content{
+    display: grid;
+    grid-template-columns: 60fr 40fr;
+}
+
+.clima-container__contenedor-economia{
+    display: flex;
+}
 
