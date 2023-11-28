@@ -1,0 +1,42 @@
+/* Estilos para pantallas grandes */
+@media screen and (min-width: 768px) {
+    body {
+        background-color: red;
+    }
+  }
+  
+  /* Estilos para pantallas medianas */
+  @media screen and (max-width: 1024px) {
+    body {
+        background-color: aqua;
+    }
+  }
+
+
+
+/* Ocultar en pantallas pequeñas */
+@media screen and (max-width: 400px) {
+    body{
+        background-color: green;
+    }
+    section{
+        padding: 5px;
+    }
+    header , .inicio__content , footer , #contacto .contenedor-contacto{
+        grid-template-columns: 100fr;
+    }
+    .inicio__content-1 iframe{
+        width: 100%;
+    }
+    .inicio__content-1 , .inicio__content-2{
+        padding: 0;
+    }
+    .content-clima-items , .clima-container__contenedor-economia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .clima-contenedor-gral , .economia-contenedor-gral{
+        text-align: center;
+    }
+}

@@ -5,19 +5,28 @@ body {
     font-family: Arial, sans-serif; /* Fuente del texto */
     margin: 0;
     padding: 0;
-    background-image: url('../assets/ParteCentral.jpeg');
+    /* background-image: url('../assets/ParteCentral.jpeg'); */
     background-size: cover; 
     background-attachment: fixed
 }
 
 header {
+    display: grid;
+    grid-template-columns: 30fr 40fr 30fr; 
     /* background-color: #333; Fondo del encabezado en un tono más oscuro de azul */
     color: #fff; /* Color del texto en el encabezado */
     padding: 10px 0;
     text-align: center;
-    /* background-image: url('../assets/ParteSuperior.jpeg');  */
     background-size: 1000px 170px; 
     background-attachment: fixed;
+}
+
+header h1{
+        margin-top: 0px;
+}
+
+.content-buttons{
+    margin: 0 1%;
 }
 
 nav ul {
@@ -35,21 +44,25 @@ nav ul li a {
 }
 
 section {
-    
     padding: 20px;
 }
 
 footer {
+    display: grid;
+    grid-template-columns: 30fr 40fr 30fr; 
     background-color: #333; /* Fondo del pie de página en un tono más oscuro de azul */
     color: #fff; /* Color del texto en el pie de página */
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
     background-image: url('../assets/ParteInferior.jpeg'); 
     background-size: 1000px 170px; 
     background-attachment: fixed;
+    padding: 20px 0;
+}
+
+footer .content-footer-2{
+    text-align: center;
+}
+footer .content-footer-3{
+    text-align: center;
 }
 
 /* Estilos para el formulario de contacto */
@@ -84,14 +97,7 @@ button:hover {
 }
 
 
-
 /* Estilos para el formulario de contacto */
-.contacto-formulario {
-
-}
-
-.form-group {
-}
 
 .form-group label {
     display: block;
@@ -125,19 +131,11 @@ button:hover {
     background-color: #2980b9;
 }
 
-#contacto {
-
-}
-
 #contacto .contenedor-contacto {
     text-align: center;
     font-size: 20px; /* Tamaño de fuente para el contenido de la sección "Contactanos" */
-
-}
-
-#contacto .informacion-contacto,
-#contacto .red-social {
-    
+    display: grid;
+    grid-template-columns: 50fr 50fr;
 }
 
 #contacto .red-social {
@@ -175,25 +173,12 @@ button:hover {
 }
 
 
-#clima-container {
-    
-}
-
-.footer-container {
-
-}
-
-
-
 .footer-text {
     font-size: 18px; /* Tamaño del texto */
     color: #fff; /* Color del texto */
 }
 
-.footer-container .separator {
-    width: 10px; /* Ancho del espacio negro entre las imágenes */
-    height: 60px; /* Igualar la altura de las imágenes */
-}
+
 
 
 .s-button {
@@ -249,7 +234,22 @@ button:hover {
     grid-template-columns: 60fr 40fr;
 }
 
+.inicio__content-1 , .inicio__content-2 {
+    padding:20px;
+}
+
 .clima-container__contenedor-economia{
     display: flex;
+}
+
+.clima-container__contenedor-economia .content-item{
+    width: 200px; 
+    height: 260px;
+    border-radius: 20px; 
+    box-shadow: 2px 4px 3px rgb(0 0 0 / 25%); 
+    border: 1px solid #bcbcbc;
+    background: white;
+    padding: 9px;
+    margin: 5px;
 }
 
